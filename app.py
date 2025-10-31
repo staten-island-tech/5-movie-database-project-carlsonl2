@@ -6,4 +6,4 @@ data = json.load(movies)
 
 for index, item in enumerate(data):
     for i in range(index):
-        print(f"{data[i]['title']}")
+        print(f"{index} : {item['title']}")
