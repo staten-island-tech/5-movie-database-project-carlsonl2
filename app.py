@@ -4,11 +4,10 @@ movies = open("./movies.json", encoding="utf8")
 ## create variable "data" that represents the enitre movie list
 data = json.load(movies)
 
-'''for index, item in enumerate(data):
-   print(f"{index} : {item['title']}")'''
-
 for index, item in enumerate(data):
-   for i in range(index):
-      year = int(input("What year?"))
-      if year < item['year']:
-         print(f"{index} : {item['title']}")
+   '''print(f"{index} : {item['title']}")'''
+
+
+   year = input("What year?")
+   if year < item['year']:
+      print(f"{index} : {item['title']}")
