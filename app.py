@@ -8,5 +8,7 @@ data = json.load(movies)
    print(f"{index} : {item['title']}")'''
 
 for index, item in enumerate(data):
-    x = item['year']
-    if x 
+   for i in range(index):
+      year = int(input("What year?"))
+      if year < item['year']:
+         print(f"{index} : {item['title']}")
