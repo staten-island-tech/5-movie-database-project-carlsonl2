@@ -30,7 +30,7 @@ while found == False:
    for index, item in enumerate(data):
       if item["title"] == name:
          print(f"{index} : {item['title']}")
-         found = True
+         '''found = True
       elif name not in data:
          print("Movie not found. Check if you spelled the name right.")
-      break
+      break'''
