@@ -33,4 +33,3 @@ while found == False:
          found = True
       elif name not in data:
          print("Movie not found. Check if you spelled the name right.")
-         break
