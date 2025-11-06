@@ -25,8 +25,13 @@ for index, item in enumerate(data):
         print(f"{index} : {item['title']}")'''
 
 
-name = input("Whats the name of the movie?")
+'''name = input("Whats the name of the movie?")
 for index, item in enumerate(data):
     if item["title"] == name:
-        print(f"{index} : {item['title']}")
+        print(f"{index} : {item['title']}")'''
+
+'''genres = input("What Genre?")
+for index, item in enumerate(data):
+    if item["genres"] == [genres]:
+        print(f"{index} : {item['title']}")'''
          
